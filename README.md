@@ -32,14 +32,17 @@ This project delivers a multi-layered security implementation covering both **Ap
 ---
 
 ## 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 ├── secure_auth.py                 # Core Password Hashing, Validation & Lockout Logic
 ├── app.py                         # Flask Web Application Interface
 ├── encryption_examples.py         # Symmetric Encryption (Fernet AES) Engine
 ├── README.md                      # Technical Project Documentation
-├── penetration_test_report.pdf    # Vulnerability Assessment Report
+├── penetration_test_report.pdf    # Vulnerability Assessment Report (ID: CX-INT-2026-CYB-0044)
 └── nmap_and_wireshark_labs/       # Network Scanning & Sniffing Artifacts
-    ├── nmap_scan.png              # Local Port Scan Screenshot
+    ├── nmap_scan.png              # Zenmap Local Port Scan Screenshot
+    ├── nmap_scan.nmap             # Raw Nmap Scan Output File
     ├── wireshark_http_capture.png # Wireshark HTTP Packet Capture Proof
-    └── wireshark_findings.txt     # Traffic Analysis & Audit Findings
+    |--http stream.png                  #streaming  packet
+    └── wireshark_findings.txt     # Traffic Analysis & Security Audit Findings
